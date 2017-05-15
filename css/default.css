@@ -10,3 +10,7 @@ body{
   border: green 1px soild;
   background-color: white;
 }
+.photo{
+  float: left;
+  margin-right: 30px;
+}
