@@ -9,12 +9,30 @@
 <body>
   <article id="main">
   <p>カレーはおいしいですね</p>
-    <img src="img/SAWA_karesarada-thumb-autox1600-19149.jpg" art="完成したカレー" width=300 class="photo">
-    <dl>
+    <section class="curry_picture">
+    <img src="SAWA_karesarada-thumb-autox1600-19149.jpg" art="完成したカレー" width=300 class="photo">
+    <dl class="explanation">
       <dt>種類：</dt><dd>ポークカレー[ごろごろしたじゃがいもとにんじん入り]</dd>
       <dt>辛さ：</dt><dd>３辛</dd>
-    </dl>
-
+       </dl>
+      <table id="ingredient">
+     <caption>カレーの材料</caption>
+          <thead>
+            <tr><th></th><td>分量</td><td>値段</td></tr>
+            </thead>
+        <tbody>
+      <tr><th>豚ブロック</th><td>300g</td><td rowspan="2">200円</td></tr>
+      <tr><th>にんじん</th><td>1本</td><td>100円</td></tr>
+      <tr><th>じゃがいも</th><td>>3個</td><td>400円</td></tr>
+      <tr><th>カレー粉</th><td>1箱</td><td>300円</td></tr>
+          </tbody>
+          <tfoot>
+           <tr><th>合計</th><td colspan="2">1000円</td></tr>
+          </tfoot>
+    </table>
+      <input type="submit" value="ok" class="btn">
+      <input type="reset" value="リセット" class="btn">
+    </section>
         
         </article>
   </body>
