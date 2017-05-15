@@ -19,3 +19,11 @@ body{
   clear: both;
   display: block;
 }
+.explanation{
+  float: ieft;
+}
+dt{
+  clear: laft;
+  float: left;
+  font-weight: bold;
+}
