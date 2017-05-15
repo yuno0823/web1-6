@@ -21,9 +21,10 @@ body{
 }
 .explanation{
   float: ieft;
+  width: 468px;
 }
 dt{
-  clear: laft;
+  clear: left;
   float: left;
   font-weight: bold;
 }
