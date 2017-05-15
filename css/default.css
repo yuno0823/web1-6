@@ -7,7 +7,7 @@ body{
   width: 798px;
   margin: 40px auto;
   padding: 40px 80px;
-  border: green 1px soild;
+  border: green 1px solid;
   background-color: white;
 }
 .photo{
@@ -20,7 +20,7 @@ body{
   display: block;
 }
 .explanation{
-  float: ieft;
+  float: left;
   width: 468px;
 }
 dt{
